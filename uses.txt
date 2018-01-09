@@ -1,0 +1,21 @@
+USES OF DIFFERENT MODEULES OF SKLEARN!!!
+
+1. from sklearn.preprocessing import Imputer  -----  This module is used to remove the missing data's from a particular coloumn or row.
+	parameter's :	1. missng_values ----- The values that is missing is given here.
+					2. strategy      ----- This implies what values must be replaced with the missing values like mean , median etc.
+					3. axis          ----- This specifies wheather the data is in row(0) or coloumn(1).			
+
+
+2. from sklearn.preprocessing import LabelEncoder ----- This module is used to represent a particular coloumn with repeating values 														into numbered one each representing a unique values.
+
+
+3. from sklearn.preprocessing import OneHotEncoder ----- This module is used to split a particular column with repeating values into 														various coloumns. 
+	parameter's :   1.	categorical_features -----  This represents to which coloumn the split has to be taken place.
+
+
+4. from sklearn.cross_validation import train_test_split ----- This module is used to split the data that we have into two categories 																i.e training data and test data.
+	parameter's : 1. test_size ----- This represents the size of test data that has to allocated.
+				  2. random_state ------ This represents the value of generating different numbers for each value.
+
+5. from sklearn.preprocessing import StandardScalar ----- This module is used to Scale a particular values i.e to standardize the 															values to almost similar ones.
+						
